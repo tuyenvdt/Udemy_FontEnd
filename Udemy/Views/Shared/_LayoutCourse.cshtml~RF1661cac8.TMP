@@ -1,0 +1,920 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/Content/css/style.css">
+    <title>Udemy.com</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Link font awesome -->
+    <link rel="stylesheet" type="text/css" href="/Content/icon/css/all.css">
+    <!--  LINK JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!--   GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=vietnamese" rel="stylesheet">
+
+    <!-- Lien ket SLIC -->
+    <link rel="stylesheet" type="text/css" href="/Content/vendor/slick/slick/slick.css" />
+    <!-- // Add the new slick-theme.css if you want the default styling -->
+    <link rel="stylesheet" type="text/css" href="/Content/vendor/slick/slick/slick-theme.css" />
+
+
+    <!--  W3-SCHOOL TEST = NAV TABS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+    <style type="text/css">
+        .slider {
+            width: 100%;
+            margin: 10px auto;
+        }
+
+        .slick-slide {
+            margin: 0px 10px;
+        }
+
+            .slick-slide img {
+                width: 100%;
+            }
+
+        .slick-prev:before,
+        .slick-next:before {
+            color: #00576b;
+        }
+
+
+        .slick-slide {
+            transition: all ease-in-out .3s;
+            opacity: 1;
+        }
+
+        .slick-active {
+            opacity: 1;
+        }
+
+        .slick-current {
+            opacity: 1;
+        }
+
+        .slick-prev, .slick-next {
+            zoom: 1.5;
+        }
+
+        .slick-prev {
+            left: -8px;
+            z-index: 1;
+        }
+
+        .slick-next {
+            right: -8px;
+        }
+    </style>
+
+
+</head>
+<body>
+
+    <!-- 	MENU- NAVBAR -->
+
+    <nav class="navbar navbar-expand-sm" style="height:65px;background-color: #fff ; position: relative;margin-bottom :0px">
+        <!-- Brand/logo -->
+        <a href="#">
+            <img class="logotrai" src="/Content/images/logo.png" alt="logo">
+        </a>
+        <a href="https://github.com">
+            <img class="logogiua" src="/Content/images/logo.png" alt="logo">
+        </a>
+
+        <!-- Danh Muc Category -->
+        <ul class="navbar-nav">
+            <div class="dropdown">
+                <button class="dropbtn">
+                    <i class="fal fa-caret-square-down"></i>
+
+                    Categories
+                </button>
+                <div class="dropdown-content">
+
+                    <div class="dropdownc2">
+                        <button class="dropbtnc2">
+                            <i class="fas fa-code"></i>
+
+                            Development
+                            <i class="fas fa-angle-right"></i>
+                        </button>
+                        <div class="dropdown-contentc2">
+                            <a href="https://github.com">All development</a>
+                            <a href="https://github.com">
+                                Web development
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Databases
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Mobile Apps
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Software Tesing
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Data Science
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="dropdownc2">
+                        <button class="dropbtnc2">
+                            <i class="fas fa-chart-bar"></i>
+
+                            Business
+                            <i class="fas fa-angle-right"></i>
+                        </button>
+                        <div class="dropdown-contentc2">
+                            <a href="https://github.com">All Business</a>
+                            <a href="https://github.com">
+                                Finance
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Communications
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Management
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Sales
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Strategy
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+
+                            <a href="https://github.com">
+                                Operations
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Business Law
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Data & Analytics
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Industry
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Media
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+
+
+                        </div>
+                    </div>
+                    <div class="dropdownc2">
+                        <button class="dropbtnc2">
+                            <i class="fas fa-wallet"></i>
+
+                            Finance & Acounting
+                            <i class="fas fa-angle-right"></i>
+                        </button>
+                        <div class="dropdown-contentc2">
+                            <a href="https://github.com">All development</a>
+                            <a href="https://github.com">
+                                Web development
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Databases
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Mobile Apps
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Software Tesing
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Data Science
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="dropdownc2">
+                        <button class="dropbtnc2">
+                            <i class="fas fa-desktop"></i>
+
+                            IT & Software
+                            <i class="fas fa-angle-right"></i>
+                        </button>
+                        <div class="dropdown-contentc2">
+                            <a href="https://github.com">
+                                All development
+
+                            </a>
+                            <a href="https://github.com">
+                                Web development
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Databases
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Mobile Apps
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Software Tesing
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Data Science
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="dropdownc2">
+                        <button class="dropbtnc2">
+                            <i class="fas fa-clipboard-list"></i>
+
+                            Office Productivity
+                            <i class="fas fa-angle-right"></i>
+                        </button>
+                        <div class="dropdown-contentc2">
+                            <a href="https://github.com">All development</a>
+                            <a href="https://github.com">
+                                Web development
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Databases
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Mobile Apps
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Software Tesing
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Data Science
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="dropdownc2">
+                        <button class="dropbtnc2">
+                            <i class="fas fa-book-open"></i>
+
+                            Personal Development
+                            <i class="fas fa-angle-right"></i>
+                        </button>
+                        <div class="dropdown-contentc2">
+                            <a href="https://github.com">All development</a>
+                            <a href="https://github.com">
+                                Web development
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Databases
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Mobile Apps
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Software Tesing
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Data Science
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="dropdownc2">
+                        <button class="dropbtnc2">
+                            <i class="fas fa-ruler-vertical"></i>
+
+                            Design
+                            <i class="fas fa-angle-right"></i>
+                        </button>
+                        <div class="dropdown-contentc2">
+                            <a href="https://github.com">All development</a>
+                            <a href="https://github.com">
+                                Web development
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Databases
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Mobile Apps
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Software Tesing
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Data Science
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="dropdownc2">
+                        <button class="dropbtnc2">
+                            <i class="far fa-dot-circle"></i>
+
+                            Marketing
+                            <i class="fas fa-angle-right"></i>
+                        </button>
+                        <div class="dropdown-contentc2">
+                            <a href="https://github.com">
+                                All development
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Web development
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Databases
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Mobile Apps
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Software Tesing
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Data Science
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="dropdownc2">
+                        <button class="dropbtnc2">
+                            <i class="fas fa-paw"></i>
+
+                            Lifestyle
+                            <i class="fas fa-angle-right"></i>
+                        </button>
+                        <div class="dropdown-contentc2">
+                            <a href="https://github.com">All development</a>
+                            <a href="https://github.com">
+                                Web development
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Databases
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Mobile Apps
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Software Tesing
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Data Science
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="dropdownc2">
+                        <button class="dropbtnc2">
+                            <i class="fas fa-camera-retro"></i>
+
+                            Photography
+                            <i class="fas fa-angle-right"></i>
+                        </button>
+                        <div class="dropdown-contentc2">
+                            <a href="https://github.com">
+                                All development
+                            </a>
+                            <a href="https://github.com">
+                                Web development
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Databases
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Mobile Apps
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Software Tesing
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Data Science
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="dropdownc2">
+                        <button class="dropbtnc2">
+                            <i class="fas fa-heartbeat"></i>
+
+                            Helth & Fitness
+                            <i class="fas fa-angle-right"></i>
+                        </button>
+                        <div class="dropdown-contentc2">
+                            <a href="https://github.com">All development</a>
+                            <a href="https://github.com">
+                                Web development
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Databases
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Mobile Apps
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Software Tesing
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Data Science
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="dropdownc2">
+                        <button class="dropbtnc2">
+                            <i class="fas fa-music"></i>
+
+                            Music
+                            <i class="fas fa-angle-right"></i>
+                        </button>
+                        <div class="dropdown-contentc2">
+                            <a href="https://github.com">All development</a>
+                            <a href="https://github.com">
+                                Web development
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Databases
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Mobile Apps
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Software Tesing
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Data Science
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="dropdownc2">
+                        <button class="dropbtnc2">
+                            <i class="fas fa-podcast"></i>
+
+                            Teaching & Academics
+                            <i class="fas fa-angle-right"></i>
+                        </button>
+                        <div class="dropdown-contentc2">
+                            <a href="https://github.com">All development</a>
+                            <a href="https://github.com">
+                                Web development
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Databases
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Mobile Apps
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Software Tesing
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="https://github.com">
+                                Data Science
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </ul>
+        <form class="navbar-form navbar-left" style="width:45%">
+            <div class="input-group">
+                <input data-purpose="search-input" name="q" maxlength="200" placeholder="Search for anything" autocomplete="off" id="header-search-field" class="form-control" value="">
+                <div class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                        <i class="fas fa-search" id="searchchinh"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
+
+        <ul class="nav navbar-nav benphai">
+            <li id="hoverhinhvuong">
+
+                <div class="dropdownc1">
+                    <div class="dropbtnc1">
+                        <a href="https://github.com">
+                            Udemy for Bussiness
+                        </a>
+                    </div>
+                    <div class="dropdown-contentc1">
+                        <p>
+                            Get your team access to 3,500+ top Udemy courses anytime, anywhere
+                        </p>
+                        <a href="https://github.com">
+                            Try Udemy for Business
+                        </a>
+                    </div>
+                </div>
+            </li>
+
+            <li id="hoverhinhvuong">
+
+                <div class="dropdownc1">
+                    <div class="dropbtnc1">
+                        <a href="https://github.com">
+                            Teach on Udemy
+                        </a>
+                    </div>
+                    <div class="dropdown-contentc1">
+                        <p>
+                            Turn what you know into an opportunity and reach millions around the world.
+                        </p>
+                        <a href="https://github.com">
+                            Learn more
+                        </a>
+                    </div>
+                </div>
+            </li>
+
+            <li id="hoverhinhtron">
+                <a href="">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </li>
+            <button class="btn btn-primary" id="dangkitaikhoan">
+                Sign Up
+            </button>
+            <button class="btn btn-success" id="dangnhaptaikhoan">
+                Login
+            </button>
+        </ul>
+
+    </nav>
+
+    <!--   form đăng kí tài khoản  -->
+    <form class="formdangki">
+        <h3 class="signup">SIGN UP</h3>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Confirm Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-primary nutdangki">Đăng kí</button>
+        <p>Bạn đã có tài khoản <i class="fas fa-arrow-right"></i></p>
+        <!--   <button type="submit" class="btn btn-warning nutlienketdangnhap">Đăng nhập</button> -->
+    </form>
+
+    <!-- form đăng nhập  -->
+
+    <form class="formdangnhap">
+        <h3 class="login">LOG IN</h3>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-primary nutdangnhap">Đăng nhập</button>
+        <p>Bạn chưa có tài khoản <i class="fas fa-arrow-right"></i></p>
+        <!--   <button type="submit" class="btn btn-danger nutlienketdangki">Đăng kí</button> -->
+    </form>
+
+
+
+@*GIỚI THIỆU TỔNG QUAN KHÓA HỌC*@
+
+    <div class="container-fluid" style="background-color: #29303B">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7">
+                    <div class="course-name">
+                        <h2>The Business Intelligence Analyst Course 2020</h2> 
+                        <p>The skills you need to become a BI Analyst - Statistics, Database theory, SQL, Tableau – Everything is included</p>
+
+                    </div>
+                    <div class="quality">
+                        <span style="text-transform: uppercase; backgroung-color: #F4C150">bestseller</span>
+                        <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+                        <p>4.5 (10,733 ratings)</p>
+                        <p>63,463 students enrolled</p>
+                    </div>
+                    <div class="author-name-and-update">
+                        <p>Created by </p>
+                        <a href="#">365 Careers</a>
+                        <p> Last updared 1/2020</p>
+                    </div>
+                    <div class="subtitle">
+                        <i class="fas fa-comment">English</i>
+                        <i class="fas fa-closed-captioning">English [Auto-generated], Italian [Auto-generated]</i>
+                    </div>
+                </div>
+                <div class="col-sm-5">
+
+                </div>
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+@*KẾT THÚC PHẦN TỔNG QUAN NỀN ĐEN*@ 
+
+
+
+
+
+
+
+
+    <!-- Thông tin liên hệ và cskh -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 lienhe768">
+                <div>
+                    <b>Udemy for Business</b>
+                </div>
+                <div>
+                    <b>Teach on Udemy</b>
+                </div>
+                <div>
+                    <span>Udemy app</span>
+                </div>
+                <div>
+                    <span>About us</span>
+                </div>
+            </div>
+            <div class="col-md-3 lienhe768">
+                <div>
+                    <span>Careers</span>
+                </div>
+                <div>
+                    <span>Blog</span>
+                </div>
+                <div>
+                    <span>Help and Support</span>
+                </div>
+                <div>
+                    <span>Affilate</span>
+                </div>
+            </div>
+            <div class="col-md-3 lienhe768">
+                <div>
+                    <span>Sitemap</span>
+                </div>
+                <div>
+                    <span>Featured courses</span>
+                </div>
+            </div>
+            <div class="col-md-3 chonngonngu">
+                <div class="cacngonngu">
+                    <!-- Nội dung ẩn khi chưa click -->
+                    <a href="https://github.com">Vietnamese</a>
+                    <a href="https://github.com">Franch</a>
+                    <a href="https://github.com">US</a>
+                    <a href="https://github.com">Iran</a>
+                    <a href="https://github.com">Philipense</a>
+                    <a href="https://github.com">Japanese</a>
+                    <a href="https://github.com">Lao </a>
+                    <a href="https://github.com">Cambodia</a>
+                    <a href="https://github.com">Tau Khua</a>
+                    <a href="https://github.com">H'Mong</a>
+                    <a href="https://github.com">Italy</a>
+                    <a href="https://github.com">Dongtimo</a>
+                    <a href="https://github.com">Malaysia</a>
+                    <a href="https://github.com">Romaji</a>
+
+                </div>
+                <button class="btn btn-warning macdinh">
+                    <img src="/Content/icon/banner_icon/globe.PNG" alt="">
+                    <p>English</p>
+                    <i class="fas fa-chevron-up" style="color: gray;"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Cuối trang tuyên bố điều khoản và bản quyền  -->
+    <div class="container-fluid" id="banquyenvachinhsach">
+        <div class="banquyen">
+            <img src="/Content/images/logo.PNG" alt="">
+            <span>Copyright © 2019 Udemy, Inc.</span>
+
+            <div class="chinhsach">
+                <a href="https://github.com">Terms</a>
+                <a href="https://github.com">Privacy Policy and Cookie Policy</a>
+            </div>
+        </div>
+        <div class="hetroi"></div>
+    </div>
+
+
+
+
+
+
+
+
+    <!--  link js tu viet -->
+    <script language="javascript" src="/Scripts/js/even.js"></script>
+
+    <!--  lien ket slic -->
+    <!-- JS -->
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="/Content/vendor/slick/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+        //  $(document).on('ready', function() {
+
+
+        $(".regular").slick({
+            dots: true,
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 3
+        });
+
+        $('.big').slick({
+            dots: true,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 5,
+            slidesToScroll: 5,
+            responsive: [
+              {
+                  breakpoint: 1200,
+                  settings: {
+                      slidesToShow: 4,
+                      slidesToScroll: 4,
+                      infinite: true,
+                      dots: true
+                  }
+              },
+              {
+                  breakpoint: 990,
+                  settings: {
+                      slidesToShow: 3,
+                      slidesToScroll: 3
+                  }
+              },
+              {
+                  breakpoint: 600,
+                  settings: {
+                      slidesToShow: 2,
+                      slidesToScroll: 2
+                  }
+              }
+            ]
+        });
+        //	}
+
+        $('.slickqc').slick({
+            dots: true,
+            infinite: false,
+            speed: 500,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            responsive: [
+              {
+                  breakpoint: 1000,
+                  settings: {
+                      slidesToShow: 2,
+                      slidesToScroll: 2,
+                      infinite: true,
+                      dots: true
+                  }
+              },
+              {
+                  breakpoint: 600,
+                  settings: {
+                      slidesToShow: 1,
+                      slidesToScroll: 1
+                  }
+              }
+            ]
+        });
+
+
+
+
+        $('.danhgiahocvien').slick({
+            dots: true,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            responsive: [
+              {
+                  breakpoint: 1200,
+                  settings: {
+                      slidesToShow: 3,
+                      slidesToScroll: 3,
+                      infinite: true,
+                      dots: true
+                  }
+              },
+              {
+                  breakpoint: 990,
+                  settings: {
+                      slidesToShow: 2,
+                      slidesToScroll: 2
+                  }
+              },
+              {
+                  breakpoint: 580,
+                  settings: {
+                      slidesToShow: 1,
+                      slidesToScroll: 1
+                  }
+              }
+            ]
+        });
+
+
+
+    </script>
+
+</body>
+</html>
+

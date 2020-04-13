@@ -1,0 +1,863 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+.container-fluid{
+  padding: 0px!important;
+}
+.thuonghieu {
+  margin-right: 0.25rem!important;
+  width: 10%;
+}
+.container{
+  padding: 0px!important;
+}
+a:hover{
+  text-decoration: none!important;
+}
+
+
+
+/* DROPDOWN Chung 
+ */
+    /* Dropdown Button */
+    .dropbtn {
+      background-color: white;
+      /* color: white;*/ 
+       padding: 16px;
+      font-size: 16px;
+      border: none;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+       background-color: white;
+       min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      min-height: 560px;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+     /*  color: black; */
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color: #ddd;}
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {display: block;}
+
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/*  DROPDOWN CHUNG */
+
+
+/* DROPDOWN C1 */
+
+      /* Dropdown Button */
+      .dropbtnc1 {
+        background-color: white;
+         padding: 16px;
+        font-size: 13px;
+        border: none;
+        font-family: 'Open Sans', sans-serif;
+        text-decoration-color: black;
+            margin: 0px 2px 0px 2px;
+      }
+        .dropbtnc1 a{
+          color: black;
+        }
+      /* The container <div> - needed to position the dropdown content */
+      .dropdownc1 {
+        position: relative;
+        display: inline-block;
+      }
+
+      /* Dropdown Content (Hidden by Default) */
+      .dropdown-contentc1 {
+        display: none;
+        position: absolute;
+         background-color: #f1f1f1;
+         width: 330px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+            background-color: white;
+    position: absolute;
+    right: 0%;
+      }
+
+      /* Links inside the dropdown */
+      .dropdown-contentc1 a {
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        color: #17839B;
+        padding-bottom: 20px;
+      }
+      .dropdown-contentc1 p{
+        margin: 0px!important;
+        padding: 25px 35px;
+        font-size: 15px;
+      }
+
+      /* Change color of dropdown links on hover */
+      .dropdown-contentc1 a:hover {background-color: #ddd;}
+
+      /* Show the dropdown menu on hover */
+      .dropdownc1:hover .dropdown-contentc1 {display: block;}
+
+      /* Change the background color of the dropdown button when the dropdown content is shown */
+      .dropdownc1:hover .dropbtnc1 { background-color: #5057631a;}
+
+
+/* DROPDOWN C2 */
+
+
+    /* Dropdown Button */
+    .dropbtnc2 {
+     background-color: white;
+
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        width: 260px;
+        text-align: left;
+      }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdownc2 {
+      position: relative;
+      display: inline-block;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-contentc2 {
+      display: none;
+      position: absolute;
+      margin-left: 260px;
+        background-color: #f1f1f1;
+       min-width: 270px;
+       min-height: 560px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-contentc2 a {
+       color: black; 
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-contentc2 a:hover {background-color: #ddd;}
+
+    /* Show the dropdown menu on hover */
+    .dropdownc2:hover .dropdown-contentc2 {display: block;}
+
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdownc2:hover .dropbtnc2 {background-color: #3e8e41;}
+
+
+/* Het Dropdown C2 */
+
+/* đăng kí vào đăng nhập  */
+form.formdangki,form.formdangnhap{
+  width: 500px;
+  height: 450px;
+  background-color: #f7f7f7;
+  border: 1px solid blue;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0px 20px;
+  z-index: 1;
+}
+.nutdangki,.nutdangnhap{
+  float: right;
+}
+.login,.signup{
+  text-align: center;
+}
+
+h3.signup,h3.login {
+    border-bottom: 2px solid blue;
+    /* width: 80%; */
+    padding-bottom: 15px;
+    /* float: left; */
+    color: blue;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+input#header-search-field {
+    height: 44px;
+    display: none;
+}
+
+.navbar-expan-sm{
+  position: relative;
+}
+ul.navbar-right{
+  position: absolute;
+  left: 800px;
+}
+
+/* .dinhvi{
+  position: relative;
+}
+ */.dropdown-contentc2{
+  position: absolute;
+  top: 0px;
+}
+button.btn.btn-default {
+    font-size: 24px;
+    color: #ec5252;
+}
+button.btn.btn-default:hover {
+    background-color: #ec5252;
+    color: white;
+}
+.dropbtnc2 {
+    padding: 4.5px 0px 4.5px 10px;
+}
+.dropdown-contentc2 a {
+
+    padding: 4.5px 0px 4.5px 10px;
+}
+
+.dropdown-contentc2 a:hover {
+    background-color: #ddd;
+    text-decoration: none;
+}
+
+i.fas.fa-angle-right {
+    float: right;
+    padding-right: 15px;
+}
+li#hoverhinhvuong {
+    display: none;
+}
+button#taikhoan{
+  display: none;
+}
+.benphai{
+  position: absolute;
+  right: 2%;
+}
+
+.logotrai{
+   width:126px;
+    height :65px;
+    padding: 16px 13px 16px 7px;
+    display: none;
+}
+.logogiua{
+  width:126px;
+    height :65px;
+    padding: 16px 13px 16px 7px;
+
+  position: absolute ;
+  left:45%; 
+  top:0%;
+  
+}  
+#dangnhaptaikhoan,#dangkitaikhoan{
+  display: none;
+}
+
+
+
+
+
+.text-contain {
+    color: white;
+}
+.text-contain p {
+  font-size: 18px; 
+  line-height: 1.61;
+}
+.text-contain h1{
+font-size:24px
+}
+.carousel-inner{
+  height: 500px;
+}
+  
+.carousel-inner img{
+  object-fit:  500px;
+}
+
+.udemy-advertisement{
+   background: -webkit-linear-gradient(-45deg,#EC5252 0%,#6E1A52 100%);
+    
+    /* Không hiện thanh quảng cáo // khi độ rộng chưa đến 992px cho display : block; */
+   display: none;
+}
+
+.udemy-advertisement i {
+   float: left;
+    font-size: 50px;
+    padding: 18px 16px 0px 0px;
+}
+.udemy-advertisement-nd{
+ 
+  padding: 17px 0px 15px 0px;
+  text-align: center;
+}
+.udemy-advertisement .col-4{
+  color: white;
+}
+i.icon-ad{
+  display :  none;
+}
+
+
+/* CARD-ADVERTISMENT */
+i.icon-tam {
+    float: left;
+    font-size: 65px;
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* height: 37%; */
+    padding: 30px 10px;
+}
+.card-body {
+    display: grid;
+}
+
+
+
+
+
+/* phàn chủ đề và slide tương ứng  */
+
+.gioithieutongquan.p-4 {
+   
+    background-color: #f7f8fa;
+    display: flex;
+    flex-direction: column;
+    height: 361px;
+    /* justify-content: center; */
+    padding: 32% 10% !important;
+      display: none;
+}
+
+/* button.btn.btn-link.btn-block.chude {
+    height: 19%;
+    margin: 0px;
+    font-size: 15px;
+} */
+h4.card-title {
+    font-size: 15px;
+}
+.card-title {
+    margin-bottom: 0.5rem;
+}
+p.card-text {
+    font-size: 12px;
+}
+h4.card-title {
+    font-size: 15px;
+    margin-bottom: 2rem;
+    display: block; 
+ 
+    width: 100%; 
+    height : 34px;
+    font-weight: 600;
+    color: #29303b;
+    overflow: hidden; 
+ 
+    white-space: pre-line; 
+ 
+    text-overflow: ellipsis; 
+}
+
+.card-text { 
+
+    font-size: 12px;
+
+    display: block; 
+ 
+    width: 100%; 
+ 
+    overflow: hidden; 
+ 
+    white-space: nowrap; 
+ 
+    text-overflow: ellipsis; 
+ 
+}
+.price p {
+  text-decoration: line-through;
+  font-size: 13px;
+  padding: 5px 10px 0px 0px;
+}
+.price span {
+  font-size: 18px;
+  font-weight: 600;
+}
+li.active{
+  border-bottom: 6px solid #007791;
+}
+
+a.card img:hover{
+  color: red;
+}
+
+
+/* TOP -CATEGORY */
+div.topdanhmuc{
+  margin-bottom:16px;
+}
+.banner-icon-chude{
+  background-color: #29303B
+}
+.icon-block-990{
+  display : none;
+}
+.nuttrang{
+  width:100%;
+  background-color: #ffffff!important;
+ /*  width: 260px; */
+}
+.nuttrang img{
+  float: left;
+  margin-top:8px;
+}
+.nuttrang p{
+  float: left;
+  color: black;
+  margin: 0px;
+  line-height:45px;
+  padding: 6px 0px 0px 15px;
+
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Đánh giá học viên */
+.hocvien{
+    background-color: #FFFFFF;
+  border: 1px solid #80808026;
+}
+.hocvienchamchi img{
+
+  width: 68px!important;
+  border-radius: 50%;
+  margin: 30px 25px 25px 25px;
+}
+.hocvienchamchi{
+  display: flex;
+}
+.hocvienchamchi b{
+  line-height: 110px;
+}
+.ndhocvien{
+  padding-left: 25px;
+  padding-bottom: 30px;
+}
+
+
+
+.thuonghieunoitieng{
+    display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.thuonghieulienket{
+  font-size: 20px;
+  padding: 20px 25px;
+}
+
+.luachon h4{
+      font-size: 19px;
+    font-weight: 600;
+    line-height: 1.47em;
+    color: #505763;
+}
+.luachon p{
+  font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+    padding-top: 3px;
+}
+.luachon button{
+   height: 45px;
+    font-size: 16px;
+}
+
+/* Thông tin liên hệ  */
+
+.lienhe768{
+  display: none;
+  padding-top: 45px;
+ 
+}
+.lienhe768 div {
+    padding-left: 20px;
+    padding-bottom: 13px;
+
+}
+.lienhe768 div b,span {
+  color : #007791;
+}
+.chonngonngu{
+  padding-top:45px;
+  position: relative;
+}
+#ngonngu{
+  padding: 8px;
+  border-radius: 5px;
+  position:absolute;
+  right:25px;
+}
+
+
+/* thông tin khóa học khi hover */
+
+.summary-content {
+  margin-left: 20px;
+  width: 26%;
+  background-color: white;
+  border: 1px solid #ebe5e5;
+  box-shadow: -1px 2px 8px 3px #80808036;
+  padding-left:18px;
+  height:480px;
+}
+.cart{
+  position:relative;
+  bottom:-63px;
+}
+.cart button.btn-danger{
+  width:70%;
+  height:50px;
+  margin-right:30px;
+  background-color: #EC5252;
+}
+button.btn-danger:hover{
+  background-color: #992337;
+}
+.information-course{
+  display:flex;
+
+}
+.icon-time{
+  float:left;
+  padding-right:8px;
+}
+.lectures,.hours,.levels{
+  width:100px;
+}
+
+/* Cuối trang - tuyên bố bản quyền và chính sách 
+ */
+#banquyenvachinhsach{
+  margin-top: 40px;
+  border-top: 1px solid #E8E9EB;
+  
+}
+.banquyen{
+  padding: 30px 20px ;
+}
+.banquyen img{
+  width: 120px;
+ 
+}
+.chinhsach{
+   float: right;
+}
+.hetroi{
+      border-top: 6px solid #ec5252;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) XS,SM */
+@media (min-width: 576px) {  
+
+  .text-contain h1{
+     font-size:40px
+  
+  }
+}
+ 
+/* Medium devices (tablets, 768px and up) MD The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+   input#header-search-field {
+    display: block;
+  }
+   .udemy-advertisement {
+     display: block; 
+  }
+  button#taikhoan{
+    display: block;
+  }
+  .logogiua{
+     display:none
+   }
+   .logotrai{
+    display: block;
+   }
+   .lienhe768{
+    display: block;
+   }
+   #dangnhaptaikhoan,#dangkitaikhoan{
+    display: block;
+   }
+}
+ 
+/* Large devices (desktops, 992px and up) LG */
+@media (min-width: 992px) { 
+  .gioithieutongquan.p-4{
+    display: block;
+  }
+  .icon-block-990{
+    display: block;
+  }
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) XL */
+@media (min-width: 1200px) {  
+    li#hoverhinhvuong {
+      display: block;
+    }
+    i.icon-ad{
+      display: block;
+    }
+    .udemy-advertisement-nd{
+      text-align: left;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
